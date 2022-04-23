@@ -1,0 +1,79 @@
+public class PigLatin {
+
+	public static void main(String[] args) {
+		//System.out.println(translate("chk"));
+		//multiple words
+		//special chars
+		//
+	}
+	
+	public static boolean stringContainsSpecial(String str) {
+		char[] special = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '@', '#', '$', '%', '^', '&', '*', '(', ')'};
+		for (int i = 0; i < str.length(); i++) {
+			for (char character : special) {
+				if (str.charAt(i) == character) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	public static String translate(String str) {
+		if (str.length() == 0) {
+			return "";
+		}
+		String[] wordsToTranslate = str.split(" ");
+		String result = "";
+		for (int i = 0; i < wordsToTranslate.length; i++) {
+			if (i > 0) {
+				result += " ";
+			}
+			result += translateWord(wordsToTranslate[i]);
+		}
+		return result;
+	}
+	
+	public static String translateWord(String str) {
+		if (stringContainsSpecial(str)) {
+			return str;
+		}
+		
+		str = str.toLowerCase();
+		
+		if (checkVowel(str.charAt(0))) {
+			return translateVowelWord(str);
+		} else {
+			return translateConsonantWord(str);
+		}
+	}
+	
+	public static String translateConsonantWord(String str) {
+		int index = -1;
+		for (int i = 1; i < str.length(); i++) {
+			if (checkVowel(str.charAt(i))) {
+				index = i;
+				break;
+			}
+		}
+		if (index > 0) {
+			return str.substring(index) + str.substring(0,index) + "ay";
+		} else {
+			return str;
+		}
+	}
+	
+	public static String translateVowelWord(String str) {
+		return str + "way";
+	}
+	
+	public static boolean checkVowel(char x) {
+		if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u') {
+			return true;
+		}
+		return false;
+	}
+	
+	
+
+}

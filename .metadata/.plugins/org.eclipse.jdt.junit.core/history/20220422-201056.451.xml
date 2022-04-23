@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PigLatinTests" project="TDDPigLatin" tests="43" started="43" failures="1" errors="0" ignored="0">
+  <testsuite name="PigLatinTests" time="0.239" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]">
+    <testcase name="testTranslateVowel1" classname="PigLatinTests" time="0.046" displayname="testTranslateVowel1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel1()]"/>
+    <testcase name="testTranslateVowel2" classname="PigLatinTests" time="0.002" displayname="testTranslateVowel2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel2()]"/>
+    <testcase name="testTranslateVowel3" classname="PigLatinTests" time="0.001" displayname="testTranslateVowel3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel3()]"/>
+    <testcase name="testTranslateVowel4" classname="PigLatinTests" time="0.002" displayname="testTranslateVowel4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel4()]"/>
+    <testcase name="testTranslateVowel5" classname="PigLatinTests" time="0.003" displayname="testTranslateVowel5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel5()]"/>
+    <testcase name="testTranslateExtended1" classname="PigLatinTests" time="0.002" displayname="testTranslateExtended1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended1()]"/>
+    <testcase name="testTranslateExtended2" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended2()]"/>
+    <testcase name="testTranslateExtended3" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended3()]"/>
+    <testcase name="testTranslateExtended4" classname="PigLatinTests" time="0.004" displayname="testTranslateExtended4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended4()]"/>
+    <testcase name="testTranslateExtended5" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended5()]"/>
+    <testcase name="testTranslateExtended6" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended6()]"/>
+    <testcase name="testTranslateExtended7" classname="PigLatinTests" time="0.018" displayname="testTranslateExtended7()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended7()]">
+      <failure>
+        <expected>unctuationpay, aymay ebay away oblempray</expected>
+        <actual>unctuation,pay aymay ebay away oblempray</actual>
+        org.junit.ComparisonFailure: expected:&lt;unctuation[pay,] aymay ebay away obl...&gt; but was:&lt;unctuation[,pay] aymay ebay away obl...&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at PigLatinTests.testTranslateExtended7(PigLatinTests.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContainsSpecial1" classname="PigLatinTests" time="0.0" displayname="testContainsSpecial1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial1()]"/>
+    <testcase name="testContainsSpecial2" classname="PigLatinTests" time="0.0" displayname="testContainsSpecial2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial2()]"/>
+    <testcase name="testContainsSpecial3" classname="PigLatinTests" time="0.0" displayname="testContainsSpecial3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial3()]"/>
+    <testcase name="testTranslate10" classname="PigLatinTests" time="0.003" displayname="testTranslate10()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate10()]"/>
+    <testcase name="testTranslate11" classname="PigLatinTests" time="0.008" displayname="testTranslate11()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate11()]"/>
+    <testcase name="testTranslate12" classname="PigLatinTests" time="0.0" displayname="testTranslate12()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate12()]"/>
+    <testcase name="testTranslate13" classname="PigLatinTests" time="0.0" displayname="testTranslate13()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate13()]"/>
+    <testcase name="testTranslate14" classname="PigLatinTests" time="0.001" displayname="testTranslate14()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate14()]"/>
+    <testcase name="testTranslate15" classname="PigLatinTests" time="0.0" displayname="testTranslate15()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate15()]"/>
+    <testcase name="testTranslate16" classname="PigLatinTests" time="0.001" displayname="testTranslate16()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate16()]"/>
+    <testcase name="testTranslate17" classname="PigLatinTests" time="0.001" displayname="testTranslate17()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate17()]"/>
+    <testcase name="testVowel1" classname="PigLatinTests" time="0.006" displayname="testVowel1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel1()]"/>
+    <testcase name="testVowel2" classname="PigLatinTests" time="0.001" displayname="testVowel2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel2()]"/>
+    <testcase name="testVowel3" classname="PigLatinTests" time="0.001" displayname="testVowel3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel3()]"/>
+    <testcase name="testVowel4" classname="PigLatinTests" time="0.002" displayname="testVowel4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel4()]"/>
+    <testcase name="testVowel5" classname="PigLatinTests" time="0.005" displayname="testVowel5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel5()]"/>
+    <testcase name="testVowel6" classname="PigLatinTests" time="0.004" displayname="testVowel6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel6()]"/>
+    <testcase name="testVowel7" classname="PigLatinTests" time="0.0" displayname="testVowel7()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel7()]"/>
+    <testcase name="testTranslate1" classname="PigLatinTests" time="0.001" displayname="testTranslate1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate1()]"/>
+    <testcase name="testTranslate2" classname="PigLatinTests" time="0.001" displayname="testTranslate2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate2()]"/>
+    <testcase name="testTranslate3" classname="PigLatinTests" time="0.001" displayname="testTranslate3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate3()]"/>
+    <testcase name="testTranslate4" classname="PigLatinTests" time="0.001" displayname="testTranslate4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate4()]"/>
+    <testcase name="testTranslate5" classname="PigLatinTests" time="0.002" displayname="testTranslate5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate5()]"/>
+    <testcase name="testTranslate6" classname="PigLatinTests" time="0.001" displayname="testTranslate6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate6()]"/>
+    <testcase name="testTranslate7" classname="PigLatinTests" time="0.001" displayname="testTranslate7()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate7()]"/>
+    <testcase name="testTranslate8" classname="PigLatinTests" time="0.001" displayname="testTranslate8()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate8()]"/>
+    <testcase name="testTranslate9" classname="PigLatinTests" time="0.003" displayname="testTranslate9()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate9()]"/>
+    <testcase name="testTranslateConsonant1" classname="PigLatinTests" time="0.006" displayname="testTranslateConsonant1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant1()]"/>
+    <testcase name="testTranslateConsonant2" classname="PigLatinTests" time="0.001" displayname="testTranslateConsonant2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant2()]"/>
+    <testcase name="testTranslateConsonant3" classname="PigLatinTests" time="0.001" displayname="testTranslateConsonant3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant3()]"/>
+    <testcase name="testTranslateConsonant4" classname="PigLatinTests" time="0.001" displayname="testTranslateConsonant4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant4()]"/>
+  </testsuite>
+</testrun>

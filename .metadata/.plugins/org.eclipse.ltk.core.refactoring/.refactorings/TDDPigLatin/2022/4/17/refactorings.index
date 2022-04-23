@@ -1,1 +1,8 @@
 1650670524268	Delete element
+1650673706364	Rename method 'stringContainsEndPunctuation'
+1650673740324	Rename method 'stringContainsSpecial'
+1650674066669	Rename method 'containsEndPunctuation'
+1650674115568	Rename method 'checkEndPunctuation'
+1650700275591	Rename method 'containsEndPunctuation'
+1650700291710	Rename method 'containsStartPunctuation'
+1650700304993	Rename method 'endsInPunctuation'

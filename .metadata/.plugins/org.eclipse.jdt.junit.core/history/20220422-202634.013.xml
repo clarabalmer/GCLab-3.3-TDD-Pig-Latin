@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PigLatinTests" project="TDDPigLatin" tests="45" started="45" failures="0" errors="0" ignored="0">
+  <testsuite name="PigLatinTests" time="0.153" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]">
+    <testcase name="testTranslateVowel1" classname="PigLatinTests" time="0.036" displayname="testTranslateVowel1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel1()]"/>
+    <testcase name="testTranslateVowel2" classname="PigLatinTests" time="0.002" displayname="testTranslateVowel2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel2()]"/>
+    <testcase name="testTranslateVowel3" classname="PigLatinTests" time="0.001" displayname="testTranslateVowel3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel3()]"/>
+    <testcase name="testTranslateVowel4" classname="PigLatinTests" time="0.001" displayname="testTranslateVowel4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel4()]"/>
+    <testcase name="testTranslateVowel5" classname="PigLatinTests" time="0.003" displayname="testTranslateVowel5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateVowel5()]"/>
+    <testcase name="testTranslateExtended1" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended1()]"/>
+    <testcase name="testTranslateExtended2" classname="PigLatinTests" time="0.002" displayname="testTranslateExtended2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended2()]"/>
+    <testcase name="testTranslateExtended3" classname="PigLatinTests" time="0.002" displayname="testTranslateExtended3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended3()]"/>
+    <testcase name="testTranslateExtended4" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended4()]"/>
+    <testcase name="testTranslateExtended5" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended5()]"/>
+    <testcase name="testTranslateExtended6" classname="PigLatinTests" time="0.001" displayname="testTranslateExtended6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateExtended6()]"/>
+    <testcase name="testContainsSpecial1" classname="PigLatinTests" time="0.001" displayname="testContainsSpecial1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial1()]"/>
+    <testcase name="testContainsSpecial2" classname="PigLatinTests" time="0.001" displayname="testContainsSpecial2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial2()]"/>
+    <testcase name="testContainsSpecial3" classname="PigLatinTests" time="0.001" displayname="testContainsSpecial3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsSpecial3()]"/>
+    <testcase name="testTranslate10" classname="PigLatinTests" time="0.001" displayname="testTranslate10()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate10()]"/>
+    <testcase name="testTranslate11" classname="PigLatinTests" time="0.001" displayname="testTranslate11()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate11()]"/>
+    <testcase name="testTranslate12" classname="PigLatinTests" time="0.001" displayname="testTranslate12()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate12()]"/>
+    <testcase name="testTranslate13" classname="PigLatinTests" time="0.0" displayname="testTranslate13()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate13()]"/>
+    <testcase name="testTranslate14" classname="PigLatinTests" time="0.001" displayname="testTranslate14()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate14()]"/>
+    <testcase name="testTranslate15" classname="PigLatinTests" time="0.002" displayname="testTranslate15()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate15()]"/>
+    <testcase name="testTranslate16" classname="PigLatinTests" time="0.001" displayname="testTranslate16()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate16()]"/>
+    <testcase name="testTranslate17" classname="PigLatinTests" time="0.001" displayname="testTranslate17()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate17()]"/>
+    <testcase name="testVowel1" classname="PigLatinTests" time="0.001" displayname="testVowel1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel1()]"/>
+    <testcase name="testVowel2" classname="PigLatinTests" time="0.001" displayname="testVowel2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel2()]"/>
+    <testcase name="testVowel3" classname="PigLatinTests" time="0.001" displayname="testVowel3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel3()]"/>
+    <testcase name="testVowel4" classname="PigLatinTests" time="0.001" displayname="testVowel4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel4()]"/>
+    <testcase name="testVowel5" classname="PigLatinTests" time="0.001" displayname="testVowel5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel5()]"/>
+    <testcase name="testVowel6" classname="PigLatinTests" time="0.001" displayname="testVowel6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel6()]"/>
+    <testcase name="testVowel7" classname="PigLatinTests" time="0.001" displayname="testVowel7()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testVowel7()]"/>
+    <testcase name="testTranslate1" classname="PigLatinTests" time="0.0" displayname="testTranslate1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate1()]"/>
+    <testcase name="testTranslate2" classname="PigLatinTests" time="0.001" displayname="testTranslate2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate2()]"/>
+    <testcase name="testTranslate3" classname="PigLatinTests" time="0.001" displayname="testTranslate3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate3()]"/>
+    <testcase name="testTranslate4" classname="PigLatinTests" time="0.001" displayname="testTranslate4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate4()]"/>
+    <testcase name="testTranslate5" classname="PigLatinTests" time="0.002" displayname="testTranslate5()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate5()]"/>
+    <testcase name="testTranslate6" classname="PigLatinTests" time="0.0" displayname="testTranslate6()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate6()]"/>
+    <testcase name="testTranslate7" classname="PigLatinTests" time="0.0" displayname="testTranslate7()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate7()]"/>
+    <testcase name="testTranslate8" classname="PigLatinTests" time="0.011" displayname="testTranslate8()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate8()]"/>
+    <testcase name="testTranslate9" classname="PigLatinTests" time="0.0" displayname="testTranslate9()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslate9()]"/>
+    <testcase name="testTranslateConsonant1" classname="PigLatinTests" time="0.009" displayname="testTranslateConsonant1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant1()]"/>
+    <testcase name="testTranslateConsonant2" classname="PigLatinTests" time="0.0" displayname="testTranslateConsonant2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant2()]"/>
+    <testcase name="testTranslateConsonant3" classname="PigLatinTests" time="0.0" displayname="testTranslateConsonant3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant3()]"/>
+    <testcase name="testTranslateConsonant4" classname="PigLatinTests" time="0.004" displayname="testTranslateConsonant4()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testTranslateConsonant4()]"/>
+    <testcase name="testContainsEndPunct1" classname="PigLatinTests" time="0.009" displayname="testContainsEndPunct1()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsEndPunct1()]"/>
+    <testcase name="testContainsEndPunct2" classname="PigLatinTests" time="0.001" displayname="testContainsEndPunct2()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsEndPunct2()]"/>
+    <testcase name="testContainsEndPunct3" classname="PigLatinTests" time="0.001" displayname="testContainsEndPunct3()" uniqueid="[engine:junit-jupiter]/[class:PigLatinTests]/[method:testContainsEndPunct3()]"/>
+  </testsuite>
+</testrun>
