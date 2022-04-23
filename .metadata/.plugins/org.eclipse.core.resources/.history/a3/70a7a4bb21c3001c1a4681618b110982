@@ -13,7 +13,7 @@ public class PigLatinPrompt {
 			repeat = optionToRepeat(scnr);
 		}
 		
-		System.out.println("eeSay ouyay aterlay!");
+		
 		
 		
 		scnr.close();

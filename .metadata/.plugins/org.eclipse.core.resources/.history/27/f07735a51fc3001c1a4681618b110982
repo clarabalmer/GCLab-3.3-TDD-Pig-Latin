@@ -104,18 +104,6 @@ class PigLatinTests {
 		String actual = PigLatin.translate("this&that");
 		Assert.assertEquals(expected, actual);
 	}
-	@Test
-	void testTranslateExtended17() {
-		String expected = "/isthay";
-		String actual = PigLatin.translate("/this");
-		Assert.assertEquals(expected, actual);
-	}
-	@Test
-	void testTranslateExtended18() {
-		String expected = "*ellohay";
-		String actual = PigLatin.translate("*hello");
-		Assert.assertEquals(expected, actual);
-	}
 	
 	
 	@Test

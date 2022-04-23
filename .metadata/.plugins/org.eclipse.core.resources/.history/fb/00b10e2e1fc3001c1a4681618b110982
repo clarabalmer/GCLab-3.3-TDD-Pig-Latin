@@ -13,13 +13,13 @@ public class PigLatinPrompt {
 			repeat = optionToRepeat(scnr);
 		}
 		
-		System.out.println("eeSay ouyay aterlay!");
+		
 		
 		
 		scnr.close();
 	}
 	public static boolean optionToRepeat(Scanner scnr) {
-		System.out.print("Would you like to go again? y/n ");
+		System.out.println("Would you like to go again? y/n ");
 		String userChoice = scnr.nextLine();
 		if (!userChoice.equalsIgnoreCase("y") && !userChoice.equalsIgnoreCase("n")) {
 			return optionToRepeat(scnr);

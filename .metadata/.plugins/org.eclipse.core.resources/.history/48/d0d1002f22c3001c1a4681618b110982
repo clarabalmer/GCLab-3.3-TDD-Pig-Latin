@@ -111,7 +111,7 @@ class PigLatinTests {
 		Assert.assertEquals(expected, actual);
 	}
 	@Test
-	void testTranslateExtended18() {
+	void testTranslateExtended17() {
 		String expected = "*ellohay";
 		String actual = PigLatin.translate("*hello");
 		Assert.assertEquals(expected, actual);

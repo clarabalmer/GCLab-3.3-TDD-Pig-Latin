@@ -71,7 +71,7 @@ public class PigLatin {
 	}
 	//check for starting punctuation
 	public static boolean startsWithPunctuation(String str) {
-		char[] startPunctuation = {'"', '-', '\'', '(', '.', '*', '/'};
+		char[] startPunctuation = {'"', '-', '\'', '(', '.', '*'};
 		for (char character : startPunctuation) {
 			if (str.charAt(0) == character) {
 				return true;
